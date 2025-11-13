@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="container mx-auto max-w-6xl">
         <div className="flex flex-col md:flex-row justify-between items-center gap-4">
           <div className="flex items-center gap-4">
-            <img src={logo} alt="Sathya Softech-in" className="h-10 brightness-0 invert" />
+            <img src={logo} alt="Sathya Softech-in" className="h-12" />
             <p className="text-sm text-gray-300">
               Building trust through technology
             </p>
