@@ -1,6 +1,7 @@
 import { Shield, Users, Image, Star, Rocket } from "lucide-react";
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
+import hlopgLogo from "@/assets/hlopg-logo.png";
 
 const HloPG = () => {
   const features = [
@@ -30,8 +31,8 @@ const HloPG = () => {
     <section id="hlopg" className="py-20 px-4 bg-purple-light">
       <div className="container mx-auto max-w-6xl">
         <div className="text-center mb-16">
-          <div className="w-20 h-20 rounded-full bg-purple flex items-center justify-center mx-auto mb-6">
-            <span className="text-3xl font-bold text-white">h</span>
+          <div className="mx-auto mb-6 flex items-center justify-center">
+            <img src={hlopgLogo} alt="HloPG Logo" className="w-24 h-24" />
           </div>
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
             Introducing <span className="text-purple">HloPG</span>
