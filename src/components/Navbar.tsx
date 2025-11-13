@@ -33,7 +33,7 @@ const Navbar = () => {
             onClick={() => scrollToSection("hlopg")}
             className="text-foreground hover:text-primary transition-colors font-medium"
           >
-            HloPG
+            Our Products
           </button>
           <button 
             onClick={() => scrollToSection("values")}
